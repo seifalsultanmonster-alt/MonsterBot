@@ -6,7 +6,7 @@
     "type": "offline"
   },
   "server": {
-    "ip": "nixhater.aternos.me:31057",
+    "ip": "nixhater.aternos.me",
     "port": 31057,
     "version": "1.20.1",
     "try-creative": false
