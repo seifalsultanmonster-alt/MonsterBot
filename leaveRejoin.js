@@ -82,7 +82,7 @@ function setupLeaveRejoin(bot, createBot) {
 
         // Stay connected: 2 minutes -> 15 minutes (More realistic AFK behavior)
         // Stay connected 1-5 minutes before a scheduled leave/rejoin cycle.
-        const stayTime = randomMs(60000, 300000)
+        const stayTime = randomMs(1200000, 1800000)
 
         logThrottled(`[AFK] Will leave in ${Math.round(stayTime / 1000)} seconds`)
 
